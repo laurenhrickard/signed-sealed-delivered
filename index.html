@@ -6,10 +6,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/057245fa8a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Signed Sealed Delivered</title>
   </head>
   <body>
@@ -19,23 +31,24 @@
           <li class="active">Home</li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
         </ul>
-      </div>
-      <div class="logo">
-        <img src="images/ssd-logo.jpeg" />
       </div>
     </div>
     <div class="container">
       <div class="header">
-        <h1>Signed Sealed Delivered</h1>
-        <h2>
-          A true anchor of 4th Avenue shopping for the last 20 years, with
+        <h1 class="mb-5">Signed Sealed Delivered</h1>
+        <h2 class="mb-5">
+          A true anchor of 4th Avenue shopping for more than 20 years, with
           unique cards and gifts that are unmatched.
         </h2>
       </div>
       <div class="about" id="about">
         <div class="about-image">
-          <img src="images/about-image.jpeg" />
+          <img
+            src="images/about-image.jpeg"
+            class="img-fluid img-thumbnail float-left"
+          />
         </div>
         <div class="about-text">
           <h2>About Us</h2>
@@ -59,50 +72,55 @@
         ></iframe>
       </div>
       <footer>
-        <div class="footer-contact">
-          <h2 id="contact">Talk to Us!</h2>
-          <p>
-            Got a question or suggestion? Get in touch here and we'll respond
-            when we can.
-          </p>
-          <form>
-            <div class="form-name">
-              <label for="name">Enter your name: </label>
-              <br />
-              <input type="text" name="name" id="name" required />
-            </div>
-            <div class="form-email">
-              <label for="email">Enter your email:</label>
-              <br />
-              <input type="text" name="email" id="email" required />
-            </div>
-            <div class="form-message">
-              <label for="message">Type your message:</label>
-              <textarea name="message" id="message" required></textarea>
-            </div>
-            <br />
-            <div class="form-button">
-              <input type="submit" value="Submit" class="button" />
-            </div>
-          </form>
-        </div>
         <div class="footer-details">
-          <h2>Contact</h2>
-          <strong>Email</strong>: ssdvancouver@gmail.com <br /><strong
-            >Phone</strong
-          >: (604) 732-0020
+          <div class="row">
+            <div class="col-mb-4">
+              <div class="footer-about ml-4">
+                <h2>About Us</h2>
+
+                Signed Sealed Delivered<br />
+                1988 West 4th Ave<br />
+                Vancouver, BC V6J 1M5
+
+                <br />
+                <br />
+              </div>
+              <div id="contact" class="contact-details ml-4">
+                Email:
+                <a href="mailto:ssdvancouver@gmail.com"
+                  >ssdvancouver@gmail.com</a
+                ><br />
+                Phone: (604) 732-0020
+              </div>
+              <br />
+              <div class="footer-rights ml-4">
+                © All rights reserved Signed Sealed Delivered 2024
+              </div>
+            </div>
+          </div>
         </div>
         <div class="footer-hours">
           <h2>Opening Hours</h2>
           <ul>
-            <li>Monday: 10:00-19:00</li>
-            <li>Tuesday: 10:00-19:00</li>
-            <li>Wednesday: 10:00-19:00</li>
-            <li>Thursday: 10:00-19:00</li>
-            <li>Friday: 10:00-19:00</li>
-            <li>Saturday: 10:00-19:00</li>
-            <li>Sunday: 11:00-18:00</li>
+            <li>Monday: 11:00-18:00</li>
+            <li>Tuesday: 11:00-18:00</li>
+            <li>Wednesday: 11:00-18:00</li>
+            <li>Thursday: 11:00-18:00</li>
+            <li>Friday: 11:00-18:00</li>
+            <li>Saturday: 11:00-18:00</li>
+            <li>Sunday: 11:00-17:00</li>
           </ul>
+        </div>
+        <div class="footer-socials p-0">
+          <h2>Find Us On:</h2>
+          <div class="footer-socials-icons">
+            <a href="https://www.instagram.com">
+              <i class="fa-brands fa-instagram fa-3x"></i
+            ></a>
+            <a href="https://www.facebook.com" class="ml-3">
+              <i class="fa-brands fa-facebook fa-3x"></i
+            ></a>
+          </div>
         </div>
       </footer>
     </div>
