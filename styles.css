@@ -96,7 +96,7 @@ nav li.active a {
 
 .navigation li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 40px;
   margin-top: 10px;
   list-style: none;
 }
