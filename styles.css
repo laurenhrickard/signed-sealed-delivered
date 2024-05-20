@@ -108,6 +108,10 @@ footer {
   margin: 40px 0;
 }
 
+.phone {
+  white-space: nowrap;
+}
+
 .footer-rights {
   font-size: 12px;
   margin-bottom: 20px;
