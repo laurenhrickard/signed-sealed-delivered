@@ -106,6 +106,7 @@ footer {
   color: white;
   padding: 30px 120px;
   margin: 40px 0;
+  white-space: nowrap;
 }
 
 .footer-rights {
