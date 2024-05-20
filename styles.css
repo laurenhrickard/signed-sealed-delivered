@@ -40,6 +40,11 @@ a:hover {
   margin: 0 auto;
 }
 
+nav img {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
 .about {
   color: var(--background-color);
 }
@@ -97,7 +102,7 @@ nav li.active a {
 .navigation li {
   display: inline-block;
   margin-right: 40px;
-  margin-top: 10px;
+  margin-top: 20px;
   list-style: none;
 }
 
