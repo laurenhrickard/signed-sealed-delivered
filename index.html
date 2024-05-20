@@ -22,45 +22,65 @@
       src="https://kit.fontawesome.com/057245fa8a.js"
       crossorigin="anonymous"
     ></script>
-    <title>Signed Sealed Delivered</title>
+    <title>Signed Sealed Delivered on 4th</title>
   </head>
   <body>
-    <div class="navigation">
-      <div class="menu">
+    <div class="container navigation">
+      <nav class="d-flex justify-content-between">
+        <img src="images/logo.png" class="logo img-fluid" alt="Lauren's logo" />
         <ul>
-          <li class="active">Home</li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="faqs.html">FAQs</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="#about" title="About Lauren">About</a></li>
+          <li><a href="#contact" title="Work samples">Contact</a></li>
+          <li>
+            <a href="#faqs" title="Lauren's contact details">FAQs</a>
+          </li>
         </ul>
+      </nav>
+    </div>
+
+    <div class="header">
+      <div class="container">
+        <p>Welcome to</p>
+        <h1>Signed Sealed Delivered</h1>
+        <h2>West 4th Ave</h2>
       </div>
     </div>
-    <div class="container">
-      <div class="header">
-        <h1 class="mb-5">Signed Sealed Delivered</h1>
-        <h2 class="mb-5">
-          A true anchor of 4th Avenue shopping for more than 20 years, with
-          unique cards and gifts that are unmatched.
-        </h2>
-      </div>
+
+    <div class="container mt-5 p-4">
       <div class="about" id="about">
-        <div class="about-image">
-          <img
-            src="images/about-image.jpeg"
-            class="img-fluid img-thumbnail float-left"
-          />
-        </div>
-        <div class="about-text">
-          <h2>About Us</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            excepturi quam molestiae magnam cumque esse nesciunt laboriosam, cum
-            voluptatum, itaque commodi minima hic magni quo modi dicta corrupti
-            reprehenderit deserunt!
-          </p>
+        <div class="row mb-4">
+          <div class="col d-none d-lg-block">
+            <img
+              src="images/ssd-storefront.png"
+              class="img-fluid img-thumbnail mb-2"
+              alt="Signed Sealed Delivered storefront"
+            />
+          </div>
+          <div class="col">
+            <div class="about-text">
+              <h2 class="mb-5">About Us</h2>
+              <p class="mt-5">
+                Located in Kitsilano's West 4th Avenue shopping district, Signed
+                Sealed Delivered is your go-to place for greeting cards, gifts,
+                novelty items, stocking fillers, stationery, party items and
+                more. We pride ourselves on offering the best selection of
+                greeting cards in Vancouver for every occasion.<br /><br />
+              </p>
+
+              <p>
+                Our helpful team are on hand to answer any questions you might
+                have, with the goal of helping you find the perfect card or
+                gift, every time.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="map">
+    </div>
+
+    <div class="container">
+      <div class="map mb-4">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.448613682348!2d-123.15248792298125!3d49.267896071390595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673b677dded6f%3A0x1ebd47e8da909cb0!2sSigned%20Sealed%20Delivered!5e0!3m2!1sen!2sca!4v1713564574788!5m2!1sen!2sca"
           width="100%"
@@ -71,58 +91,107 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <footer>
-        <div class="footer-details">
-          <div class="row">
-            <div class="col-mb-4">
-              <div class="footer-about ml-4">
-                <h2>About Us</h2>
+    </div>
 
-                Signed Sealed Delivered<br />
-                1988 West 4th Ave<br />
-                Vancouver, BC V6J 1M5
-
-                <br />
-                <br />
-              </div>
-              <div id="contact" class="contact-details ml-4">
-                Email:
-                <a href="mailto:ssdvancouver@gmail.com"
-                  >ssdvancouver@gmail.com</a
-                ><br />
-                Phone: (604) 732-0020
-              </div>
-              <br />
-              <div class="footer-rights ml-4">
-                © All rights reserved Signed Sealed Delivered 2024
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-hours">
-          <h2>Opening Hours</h2>
+    <div class="container mb-4" id="faqs">
+      <div class="faq-container">
+        <h2>FAQs</h2>
+        <h3>What are your opening hours?</h3>
+        <h4>
           <ul>
-            <li>Monday: 11:00-18:00</li>
-            <li>Tuesday: 11:00-18:00</li>
-            <li>Wednesday: 11:00-18:00</li>
-            <li>Thursday: 11:00-18:00</li>
-            <li>Friday: 11:00-18:00</li>
-            <li>Saturday: 11:00-18:00</li>
+            <li>Monday - Saturday: 11:00-18:00</li>
             <li>Sunday: 11:00-17:00</li>
           </ul>
+        </h4>
+        <h3>Do you have any offers on currently?</h3>
+        <h4>
+          Yes! Our 'Buy 5, save $5' offer is valid on all our cards, all day,
+          every day.
+        </h4>
+
+        <h3>Am I able to order items online?</h3>
+        <h4>Not currently, but we hope to add this option in the future.</h4>
+        <h3>What occasions do you stock cards for?</h3>
+        <h4>
+          You'll find cards for the following occasions – and more! – at Signed
+          Sealed Delivered:
+        </h4>
+        <div class="row card-categories">
+          <div class="col">
+            <ul>
+              <li class="cards">Birthday</li>
+              <li>Good Luck</li>
+              <li>Congratulations</li>
+              <li>Sympathy / Thinking of you</li>
+              <li>Religious</li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>Anniversary</li>
+              <li>Wedding / Engagement</li>
+              <li>New baby</li>
+              <li>New home</li>
+              <li>New job</li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>Seasonal e.g. Mother's Day</li>
+              <li>Blank inside</li>
+              <li>Get well soon</li>
+              <li>Thank you</li>
+              <li>Retirement</li>
+            </ul>
+          </div>
         </div>
-        <div class="footer-socials p-0">
-          <h2>Find Us On:</h2>
-          <div class="footer-socials-icons">
-            <a href="https://www.instagram.com">
-              <i class="fa-brands fa-instagram fa-3x"></i
-            ></a>
-            <a href="https://www.facebook.com" class="ml-3">
-              <i class="fa-brands fa-facebook fa-3x"></i
-            ></a>
+        <h3>Are you hiring?</h3>
+        <h4>
+          Not currently, but we're always happy to take your resume in case
+          anything changes!
+        </h4>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer>
+        <div class="row">
+          <div class="col">
+            <p>
+              Signed Sealed Delivered<br />
+              1988 West 4th Ave<br />
+              Vancouver, BC V6J 1M5
+              <br /><br />
+              Email: <a href="mailto:ssdvancouver@gmail.com"
+                >ssdvancouver@gmail.com</a
+              ><br />
+              Phone: (604) 732-0020
+            </p>
+          </div>
+          <div class="col">
+            <div class="social-links d-flex justify-content-center">
+              <a href="https://www.facebook.com" target="_blank" title="Github"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                title="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
           </div>
         </div>
       </footer>
     </div>
+
+    <div class="footer-rights text-center">
+      © All rights reserved Signed Sealed Delivered 2024
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/057245fa8a.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
