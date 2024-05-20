@@ -202,7 +202,8 @@ footer .social-links a:hover {
     font-size: 14px;
   }
 
-  .hours li {
+  .hours,
+  .card-categories li {
     text-align: left;
   }
 
