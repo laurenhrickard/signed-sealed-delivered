@@ -202,6 +202,10 @@ footer .social-links a:hover {
     font-size: 14px;
   }
 
+  .hours li {
+    text-align: left;
+  }
+
   .about-image {
     display: none;
   }
